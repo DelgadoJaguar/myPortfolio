@@ -1,0 +1,20 @@
+.about-project{
+    background-color: #E8E8E8;
+}
+.about-project img{
+   width: 100%;
+}
+.about-project .about-project-text{
+    padding-top: 150px;
+    padding-right: 50px;
+}
+.about-project .about-project-text h1{
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+.about-project .about-project-text p{
+    font-size: 20px;
+}
+.about-project-three{
+    padding-top: 100px;
+}

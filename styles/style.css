@@ -1,0 +1,205 @@
+@import url('about-projects.css');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap');
+body{
+    background-color: #F8F9FA;
+}
+a,
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+.navigation{
+    padding: 40px 0;
+    background-color: #F8F9FA;
+}
+.nav-bar-left{
+    margin-left: auto;
+}
+.wrapper img{
+    width: 100%;
+}
+.hero,
+.middle-section,
+.second-section{
+    padding: 0 15px;
+}
+.box-small{
+    padding: 150px;
+}
+.box-small img{
+    visibility: hidden;
+}
+
+.box-large img{
+    visibility: hidden;
+}
+
+.box-wide img{
+    width: 75%;
+} 
+.box-wide img{
+    visibility: hidden;
+}
+
+.wrapper{
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.wrapper .box-hero img{
+    position: absolute;
+    bottom: -15px;
+    right: 0;
+    width: 65%;
+}
+.wrapper .middle-section .box-large{
+    background-image: url('../media/bw-paper.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.positioning{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.typed-hero{
+    background-color: #ffffff;
+    padding: 80px;
+    padding-top: 150px;
+}
+.typed-hero h1{
+    font-size: 34px;
+    padding-bottom: 20px;
+
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+.typed-hero p{
+    color: rgb(121, 121, 121);
+    font-family: 'Work Sans', sans-serif;
+
+    font-size: 15px;
+}
+.typed-hero,
+.typed-sections span{
+    color: rgb(0, 0, 0);
+    font-family: 'Work Sans', sans-serif;
+
+    font-size: 14px;
+    font-weight: 500;
+}
+/* buttons - moving */
+.visit-button .border-line{
+    display: block;
+    height: 2px;
+    width: 30px;
+    background-color: lightgrey;
+    transition: .4s;
+}
+.visit-button:hover .border-line{
+    width: 80px;
+    background-color: rgb(26, 26, 26);
+    transition: .4s;
+}
+.typed-sections{
+    background-color: #ffffff;
+    padding: 50px 50px;
+}
+.typed-sections h1{
+    color: #E7E7E7;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+.typed-sections .under-number{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 25px;
+    padding-top: 15px;
+}
+.typed-sections .under-header{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+/* overlay ans positions */
+.overlay:hover{
+    opacity: 1;
+    
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    opacity: 0;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    font-family:'Work Sans', sans-serif;
+}
+.overlay-small {
+    padding-top: 40%;
+}
+.overlay-vertical{
+    padding-top: 80%;
+}
+.overlay-horizontal{
+    padding-top: 20%;
+}
+.vertical-phone img{
+    visibility: hidden;
+}
+.vertical-phone{
+    display: none;
+}
+.overlay-phone-horizontal{
+    padding-top: 15%;
+}
+/* Projects */
+.projects img{
+    width: 100%;
+}
+
+.blocks{
+    margin: 15px auto;
+}
+.blocks i{
+    font-size: 22px;
+    color: rgb(93, 93, 93);
+}
+
+
+@media (max-width: 1200px){
+    .overlay-vertical{
+        padding-top: 700px;
+    }
+}
+@media (max-width: 991px){
+    .vertical-phone{
+        display: block;
+    }
+    .vertical-phone img{
+        width: 30%;
+    }
+    .box-large{
+        display: none;
+    }
+    .box-wide img {
+        width: 100%;
+    }
+    .wrapper .box-hero img{
+        display: none;
+    }
+    .wrapper {
+       padding-top: 0;
+    }
+}
+
+
