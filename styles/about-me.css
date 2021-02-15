@@ -1,0 +1,47 @@
+.about-me img{
+    padding-left: 150px;
+}
+.about-me-three .row > div{
+    padding-bottom: 25px;
+}
+.about-me-three h3{
+    padding-bottom: 20px;
+}
+.about-me-three p{
+    color: rgb(117, 117, 117);
+}
+.about-me-three  .about-me-social p:hover{
+    color: black;
+}
+.about-me-text h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+.about-me-text{
+    padding-top: 80px;
+    padding-right: 50px;
+}
+.about-me-text h1{
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+.about-me-text p{
+    font-family:'Work Sans', sans-serif;
+    font-size: 18px;
+    color: rgb(93, 93, 93);
+    font-weight: 500;
+}
+@media (max-width: 1200px){
+    .about-me img {
+        padding-left:0;
+        padding-top: 50px;
+    }
+}
+@media (max-width: 990px){
+    .about-me-text h1{
+        font-size: 45px;
+    }
+    .about-me-text p{
+        font-size: 15px;
+    }
+}
