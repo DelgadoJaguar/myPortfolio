@@ -1,0 +1,61 @@
+.contact-image img{
+    width: 100%;
+    padding: 200px 40px 100px 0;
+}
+.contact-text{
+    padding: 200px 0;
+}
+.contact-text h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.contact-btn{
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.button-contact{
+    background-color: rgb(17, 17, 17);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+.dropdown-customize{
+    padding-top: 25px;
+    font-family: 'Work Sans', sans-serif;
+}
+.dropdown-customize span{
+    padding: 15px 20px;
+    background-color: rgb(195, 195, 195);
+}
+#btn-contact-email{
+    padding: 10px 23px;
+}
+#email-btn{
+    display: none;
+}
+#phone-btn{
+    display: none;
+}
+
+@media (max-width: 990px){
+    .contact-image img{
+        width: 80%;
+        padding: 200px 0px 0px 0;
+    }
+    .contact-text{
+        text-align: center;
+    }
+}
+@media (max-width: 768px){
+    .contact-text{
+        padding: 100px 20px;
+    }
+}
+@media (max-width: 575px){
+    .contact-text{
+        padding: 100px 20px;
+    }
+}
