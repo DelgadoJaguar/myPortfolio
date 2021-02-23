@@ -33,7 +33,7 @@
 }
 .about-project-three p{
     font-family: 'Work Sans', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
 }
 @media (max-width: 1200px){
     .about-project .about-project-text{

@@ -17,10 +17,11 @@
 .button-contact{
     background-color: rgb(17, 17, 17);
     color: white;
-    padding: 10px 20px;
+    padding: 12px 30px;
     cursor: pointer;
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
+    font-size: 23px;
 }
 .dropdown-customize{
     padding-top: 25px;
@@ -29,9 +30,6 @@
 .dropdown-customize span{
     padding: 15px 20px;
     background-color: rgb(195, 195, 195);
-}
-#btn-contact-email{
-    padding: 10px 23px;
 }
 #email-btn{
     display: none;
